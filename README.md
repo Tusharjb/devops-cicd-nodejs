@@ -223,13 +223,19 @@ These secrets are securely referenced by the GitHub Actions workflow during Dock
 
 ### Application Running
 
+The application is successfully running after completing the CI/CD workflow.
+
 ![Application Running](screenshots/application-running.png)
 
 ### Successful GitHub Actions Pipeline
 
+The GitHub Actions workflow successfully runs automated tests, builds the Docker image, and pushes it to Docker Hub.
+
 ![GitHub Actions Pipeline](screenshots/github-actions-success.png)
 
 ### Docker Hub Images
+
+The Docker image is automatically published to Docker Hub after a successful CI/CD pipeline execution.
 
 ![Docker Hub Images](screenshots/dockerhub-images.png)
 
