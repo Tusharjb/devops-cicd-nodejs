@@ -64,7 +64,11 @@ h1 {
     font-weight: bold;
 }
 
-.completed {
+.task.completed {
+    color: #15803d;
+}
+
+.task.completed span {
     color: #15803d;
 }
 
